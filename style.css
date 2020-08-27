@@ -1,0 +1,67 @@
+.blocksContainer a,
+.blocksContainer a:hover {
+  color: #f0ad4e;
+  text-decoration: none;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.homepagetitle {
+  font-size: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+button {
+  margin-bottom: 10px;
+  margin-top: 10px
+}
+
+.checkbox{
+  margin: 10px;
+}
+
+.buttons {
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input {
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+
+pre code {
+  border-radius: 6px;
+  display: block;
+  padding: 20px;
+  width: 400px;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f6f8fa;
+  border-radius: 6px;
+}
+
+.blue {
+  color:#0275d8 !important;
+}
+
+.yellow {
+  color: #f0ad4e !important;
+}

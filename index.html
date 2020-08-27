@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <title>Super Docker App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"><a class="navbar-brand" href="/">Super Docker
+            App</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"></button>
+        <div id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">Super</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Docker</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">App</a></li>
+            </ul>
+        </div>
+    </nav><br>
+    <div class="container">
+        <h1>Super Docker App</h1>
+        <span><i> By Julien Doré</i></span>
+        <p>Super Docker App permet de Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus esse qui quae
+            hic pariatur, eligendi excepturi iure soluta sint aut iusto exercitationem cum cupiditate officia quisquam
+            vitae nobis sequi doloremque.</p>
+        <p>Pour requêter les descriptions visuelles supplémentaires de tous les POI : requête <code>POST </code>vers
+            <code>https://super.docker.app/users/sendall</code>.</p>
+        <p>Pour requêter les descriptions visuelles supplémentaires de POI spécifiques : requête <code>POST </code>vers
+            <code>https://super.docker.app/users/sendlist </code>avec en paramètres :</p>
+        <pre><code style="margin-bottom : 50px;border-radius: 6px;display: block;padding: 20px; width: 400px; font-size: 85%;line-height: 1.45; background-color: #f6f8fa; border-radius: 6px;">body: {
+  {"postedUser": "&lt;un ou plusieurs ids&gt;" }
+}</code></pre>
+        <p></p>
+        <p>Pour afficher un ou plusieurs utilisateurs spécifiques, saisissez les identifiants correspondants dans le
+            champ "Rechercher un ou plusieurs utilisateurs".</p>
+        <p>"<b class="yellow">Afficher </b>les utilisateurs correspondants" dirigera vers une liste d'utilisateurs
+            depuis
+            laquelle vous pourrez consulter, modifier ou supprimer les différents niveaux de descriptions des
+            utilisateurs. </p>
+        <p>"<b class="blue">Envoyer </b>les utilisateurs correspondants" déclenchera une réponse du serveur organisé
+            comme suit :
+        </p>
+        <pre><code style="margin-bottom : 50px;border-radius: 6px;display: block;padding: 20px; width: 400px; font-size: 85%;line-height: 1.45; background-color: #f6f8fa; border-radius: 6px;">{
+    "1": {
+        "dv1": "level 1 visual description of poi 1",
+        "dv2": "level 2 visual description of poi 1",
+        "dv3": "level 3 visual description of poi 1"
+    },
+    "3": {
+        "dv1": "level 1 visual description of poi 3",
+        "dv2": "level 2 visual description of poi 3",
+        "dv3": "level 3 visual description of poi 3"
+    }
+}</code></pre>
+    </div>
+</body>
+
+</html>
